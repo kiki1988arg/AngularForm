@@ -52,5 +52,7 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
+   
   }
+
 }
