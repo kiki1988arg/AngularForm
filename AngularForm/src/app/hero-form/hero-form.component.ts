@@ -4,14 +4,15 @@ import { Hero }    from './hero';
 
 @Component({
   selector: 'hero-form',
-  templateUrl: './hero-form.component.html'
+  templateUrl: './hero-form.component.html',
+  styleUrls:['hero-form.component.css']
 })
 export class HeroFormComponent {
 
   powers = ['Really Smart', 'Super Flexible',
             'Super Hot', 'Weather Changer'];
 
-  model = new Hero(18, 'Dr IQ', this.powers[1], 'Chuck Overstreet');
+  model = new Hero(18, 'Dr IQ','a@gmail.com', this.powers[1], 'Chuck Overstreet');
 
   submitted = false;
 
